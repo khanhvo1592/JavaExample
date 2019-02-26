@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package helloworld;
 
 /**
  *
- * @author Admin
+ * @author bg2kt
  */
-public class JavaApplication2 {
+public class Helloworld {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("helloworld");
         // TODO code application logic here
     }
     
