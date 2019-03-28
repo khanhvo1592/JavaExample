@@ -11,14 +11,14 @@ import java.util.Scanner;
  */
 public class tinhTheTich {
     public static void main(String[] args) {
-       float canh = 0;
+       double canh = 0;
        Scanner sCanh = new Scanner(System.in);
        System.out.println("Nhap do dai canh: ");
         try {
-            canh = sCanh.nextInt();
+            canh = sCanh.nextDouble();
         } catch (Exception e) {
             System.out.print("Vui long nhap so");
         }
-        System.out.print("The tich la: "  + Math.pow(canh, 3));
+        System.out.println("The tich la:   " +  Math.pow(canh, 3));
     }
 }
